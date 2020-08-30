@@ -16,7 +16,7 @@ date_default_timezone_set("PRC");
 define("REPO","Delusional");//必须是下面用户名下的公开仓库
 define("USER","Fantasy713");//必须是当前GitHub用户名
 define("MAIL","mail@foxmail.com");//
-define("TOKEN","51c98a79ee5db07d6733f2e65eb4a4f8beed19fe");//https://github.com/settings/tokens 去这个页面生成一个有写权限的token（write:packages前打勾）
+define("TOKEN","a0cb01dd61045aa23e2fbe04f3a7ed0907d09924");//https://github.com/settings/tokens 去这个页面生成一个有写权限的token（write:packages前打勾）
 
 function upload($url, $content)
 {
