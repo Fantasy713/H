@@ -5,14 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 台湾01 | x1 | AGA | NF, server: aga.hxlm.cc, port: 9105, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇨🇳 台湾01 | x1 | HZCU | NF, server: hz.hxlm.cc, port: 9105, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇨🇳 台湾01 | x1 | JMCM | NF, server: jm.hxlm.cc, port: 23000, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇨🇳 台湾02 | x1 | AGA | NF, server: aga.hxlm.cc, port: 9122, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
+  - {name: 🇨🇳 台湾02 | x1 | Drict | NF, server: tw02.hxlm.cc, port: 18088, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
   - {name: 🇨🇳 台湾02 | x1 | HZCU | NF, server: hz.hxlm.cc, port: 9122, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
-  - {name: 🇨🇳 台湾02 | x1 | JMCM | NF, server: jm.hxlm.cc, port: 23001, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
-  - {name: 🇭🇰 香港 HKT01 | x1 | AGA | NF, server: aga.hxlm.cc, port: 9111, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇭🇰 香港 HKT01 | x1 | JMCM-HK | NF, server: jm.hxlm.cc, port: 23024, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇭🇰 香港 HKT01 | x1 | HZCU-HK | NF, server: hz.hxlm.cc, port: 10000, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇭🇰 香港 HKT02 | x1 | AGA | NF, server: aga.hxlm.cc, port: 9123, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
   - {name: 🇭🇰 香港 HKT02 | x1 | HZCU-HK | NF, server: hz.hxlm.cc, port: 10011, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
@@ -28,6 +22,7 @@ proxies:
   - {name: 🇭🇰 香港02 | x1 | JMCM, server: jm.hxlm.cc, port: 23006, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇭🇰 香港03 | x1 | HZCU, server: hz.hxlm.cc, port: 9109, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇭🇰 香港03 | x1 | AGA, server: aga.hxlm.cc, port: 9109, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
+  - {name: 🇭🇰 香港03 | x1 | JMCM, server: jm.hxlm.cc, port: 23007, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇭🇰 香港04 | x1 | HZCU, server: hz.hxlm.cc, port: 9200, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇭🇰 香港04 | x1 | AGA, server: aga.hxlm.cc, port: 9200, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇭🇰 香港04 | x1 | JMCM, server: jm.hxlm.cc, port: 23008, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
@@ -46,13 +41,13 @@ proxies:
   - {name: 🇺🇸 美国01 | x1 | JMCM, server: jm.hxlm.cc, port: 23012, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇺🇸 美国01 | x1 | HZCU, server: hz.hxlm.cc, port: 9101, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇺🇸 美国01 | x1 | AGA, server: aga.hxlm.cc, port: 9101, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇭🇰 美国02 | x1 | HK, server: relay-hk.hxlm.cc, port: 4004, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
+  - {name: 🇺🇸 美国02 | x1 |, server: relay-hk.hxlm.cc, port: 4004, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇺🇸 美国02 | x1 | AGA, server: aga.hxlm.cc, port: 9100, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇺🇸 美国02 | x1 | JMCM, server: jm.hxlm.cc, port: 23013, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇭🇰 美国03 | x1 | HK | NF, server: relay-hk.hxlm.cc, port: 4005, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
+  - {name: 🇺🇸 美国03 | x1 | NF, server: relay-hk.hxlm.cc, port: 4005, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇺🇸 美国03 | x1 | AGA | NF, server: aga.hxlm.cc, port: 9116, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇺🇸 美国03 | x1 | JMCM | NF, server: jm.hxlm.cc, port: 23014, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇭🇰 美国04 | x1 | HK | NF, server: relay-hk.hxlm.cc, port: 4006, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
+  - {name: 🇺🇸 美国04 | x1 | NF, server: relay-hk.hxlm.cc, port: 4006, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇺🇸 美国04 | x1 | AGA | NF, server: aga.hxlm.cc, port: 9117, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇺🇸 美国04 | x1 | JMCM | NF, server: jm.hxlm.cc, port: 23015, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇷🇺 俄罗斯01 | x1 | JMCM, server: jm.hxlm.cc, port: 23016, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
@@ -60,8 +55,6 @@ proxies:
   - {name: 🇷🇺 俄罗斯01 | x1 | AGA, server: aga.hxlm.cc, port: 9133, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
   - {name: 🇷🇺 俄罗斯02 | x1 | HZCU, server: hz.hxlm.cc, port: 9119, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
   - {name: 🇷🇺 俄罗斯02 | x1 | AGA, server: aga.hxlm.cc, port: 9119, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
-  - {name: 🇷🇺 俄罗斯02 | x1 | JMCM, server: jm.hxlm.cc, port: 23017, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
-  - {name: 🇬🇧 英国01 | x1 | JMCM, server: jm.hxlm.cc, port: 23018, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.baidu.com}}
   - {name: 🇬🇧 英国01 | x1 | HZCU, server: hz.hxlm.cc, port: 9132, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.baidu.com}}
   - {name: 🇬🇧 英国01 | x1 | AGA, server: aga.hxlm.cc, port: 9132, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.baidu.com}}
   - {name: 🇭🇰 日本01 | x1 | HK| NF, server: relay-hk.hxlm.cc, port: 4011, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-jp01.jerrui.com}}
@@ -75,9 +68,7 @@ proxies:
   - {name: 🇸🇬 新加坡01 | x1 |  JMCM | NF, server: jm.hxlm.cc, port: 23022, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
   - {name: 🇸🇬 新加坡01 | x1 | HZCU | NF, server: hz.hxlm.cc, port: 9112, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
   - {name: 🇸🇬 新加坡01 | x1 | AGA | NF, server: aga.hxlm.cc, port: 9112, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
-  - {name: 🇸🇬 新加坡02 | x1 | HZCU | NF, server: hz.hxlm.cc, port: 9201, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
   - {name: 🇸🇬 新加坡02 | x1 | AGA | NF, server: aga.hxlm.cc, port: 9201, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
-  - {name: 🇸🇬 新加坡02 | x1 | JMCM | NF, server: jm.hxlm.cc, port: 23023, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -96,14 +87,8 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇨🇳 台湾01 | x1 | AGA | NF
-      - 🇨🇳 台湾01 | x1 | HZCU | NF
-      - 🇨🇳 台湾01 | x1 | JMCM | NF
-      - 🇨🇳 台湾02 | x1 | AGA | NF
+      - 🇨🇳 台湾02 | x1 | Drict | NF
       - 🇨🇳 台湾02 | x1 | HZCU | NF
-      - 🇨🇳 台湾02 | x1 | JMCM | NF
-      - 🇭🇰 香港 HKT01 | x1 | AGA | NF
-      - 🇭🇰 香港 HKT01 | x1 | JMCM-HK | NF
       - 🇭🇰 香港 HKT01 | x1 | HZCU-HK | NF
       - 🇭🇰 香港 HKT02 | x1 | AGA | NF
       - 🇭🇰 香港 HKT02 | x1 | HZCU-HK | NF
@@ -119,6 +104,7 @@ proxy-groups:
       - 🇭🇰 香港02 | x1 | JMCM
       - 🇭🇰 香港03 | x1 | HZCU
       - 🇭🇰 香港03 | x1 | AGA
+      - 🇭🇰 香港03 | x1 | JMCM
       - 🇭🇰 香港04 | x1 | HZCU
       - 🇭🇰 香港04 | x1 | AGA
       - 🇭🇰 香港04 | x1 | JMCM
@@ -137,13 +123,13 @@ proxy-groups:
       - 🇺🇸 美国01 | x1 | JMCM
       - 🇺🇸 美国01 | x1 | HZCU
       - 🇺🇸 美国01 | x1 | AGA
-      - 🇭🇰 美国02 | x1 | HK
+      - 🇺🇸 美国02 | x1 |
       - 🇺🇸 美国02 | x1 | AGA
       - 🇺🇸 美国02 | x1 | JMCM
-      - 🇭🇰 美国03 | x1 | HK | NF
+      - 🇺🇸 美国03 | x1 | NF
       - 🇺🇸 美国03 | x1 | AGA | NF
       - 🇺🇸 美国03 | x1 | JMCM | NF
-      - 🇭🇰 美国04 | x1 | HK | NF
+      - 🇺🇸 美国04 | x1 | NF
       - 🇺🇸 美国04 | x1 | AGA | NF
       - 🇺🇸 美国04 | x1 | JMCM | NF
       - 🇷🇺 俄罗斯01 | x1 | JMCM
@@ -151,8 +137,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯01 | x1 | AGA
       - 🇷🇺 俄罗斯02 | x1 | HZCU
       - 🇷🇺 俄罗斯02 | x1 | AGA
-      - 🇷🇺 俄罗斯02 | x1 | JMCM
-      - 🇬🇧 英国01 | x1 | JMCM
       - 🇬🇧 英国01 | x1 | HZCU
       - 🇬🇧 英国01 | x1 | AGA
       - 🇭🇰 日本01 | x1 | HK| NF
@@ -166,23 +150,15 @@ proxy-groups:
       - 🇸🇬 新加坡01 | x1 |  JMCM | NF
       - 🇸🇬 新加坡01 | x1 | HZCU | NF
       - 🇸🇬 新加坡01 | x1 | AGA | NF
-      - 🇸🇬 新加坡02 | x1 | HZCU | NF
       - 🇸🇬 新加坡02 | x1 | AGA | NF
-      - 🇸🇬 新加坡02 | x1 | JMCM | NF
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾01 | x1 | AGA | NF
-      - 🇨🇳 台湾01 | x1 | HZCU | NF
-      - 🇨🇳 台湾01 | x1 | JMCM | NF
-      - 🇨🇳 台湾02 | x1 | AGA | NF
+      - 🇨🇳 台湾02 | x1 | Drict | NF
       - 🇨🇳 台湾02 | x1 | HZCU | NF
-      - 🇨🇳 台湾02 | x1 | JMCM | NF
-      - 🇭🇰 香港 HKT01 | x1 | AGA | NF
-      - 🇭🇰 香港 HKT01 | x1 | JMCM-HK | NF
       - 🇭🇰 香港 HKT01 | x1 | HZCU-HK | NF
       - 🇭🇰 香港 HKT02 | x1 | AGA | NF
       - 🇭🇰 香港 HKT02 | x1 | HZCU-HK | NF
@@ -198,6 +174,7 @@ proxy-groups:
       - 🇭🇰 香港02 | x1 | JMCM
       - 🇭🇰 香港03 | x1 | HZCU
       - 🇭🇰 香港03 | x1 | AGA
+      - 🇭🇰 香港03 | x1 | JMCM
       - 🇭🇰 香港04 | x1 | HZCU
       - 🇭🇰 香港04 | x1 | AGA
       - 🇭🇰 香港04 | x1 | JMCM
@@ -216,13 +193,13 @@ proxy-groups:
       - 🇺🇸 美国01 | x1 | JMCM
       - 🇺🇸 美国01 | x1 | HZCU
       - 🇺🇸 美国01 | x1 | AGA
-      - 🇭🇰 美国02 | x1 | HK
+      - 🇺🇸 美国02 | x1 |
       - 🇺🇸 美国02 | x1 | AGA
       - 🇺🇸 美国02 | x1 | JMCM
-      - 🇭🇰 美国03 | x1 | HK | NF
+      - 🇺🇸 美国03 | x1 | NF
       - 🇺🇸 美国03 | x1 | AGA | NF
       - 🇺🇸 美国03 | x1 | JMCM | NF
-      - 🇭🇰 美国04 | x1 | HK | NF
+      - 🇺🇸 美国04 | x1 | NF
       - 🇺🇸 美国04 | x1 | AGA | NF
       - 🇺🇸 美国04 | x1 | JMCM | NF
       - 🇷🇺 俄罗斯01 | x1 | JMCM
@@ -230,8 +207,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯01 | x1 | AGA
       - 🇷🇺 俄罗斯02 | x1 | HZCU
       - 🇷🇺 俄罗斯02 | x1 | AGA
-      - 🇷🇺 俄罗斯02 | x1 | JMCM
-      - 🇬🇧 英国01 | x1 | JMCM
       - 🇬🇧 英国01 | x1 | HZCU
       - 🇬🇧 英国01 | x1 | AGA
       - 🇭🇰 日本01 | x1 | HK| NF
@@ -245,23 +220,15 @@ proxy-groups:
       - 🇸🇬 新加坡01 | x1 |  JMCM | NF
       - 🇸🇬 新加坡01 | x1 | HZCU | NF
       - 🇸🇬 新加坡01 | x1 | AGA | NF
-      - 🇸🇬 新加坡02 | x1 | HZCU | NF
       - 🇸🇬 新加坡02 | x1 | AGA | NF
-      - 🇸🇬 新加坡02 | x1 | JMCM | NF
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾01 | x1 | AGA | NF
-      - 🇨🇳 台湾01 | x1 | HZCU | NF
-      - 🇨🇳 台湾01 | x1 | JMCM | NF
-      - 🇨🇳 台湾02 | x1 | AGA | NF
+      - 🇨🇳 台湾02 | x1 | Drict | NF
       - 🇨🇳 台湾02 | x1 | HZCU | NF
-      - 🇨🇳 台湾02 | x1 | JMCM | NF
-      - 🇭🇰 香港 HKT01 | x1 | AGA | NF
-      - 🇭🇰 香港 HKT01 | x1 | JMCM-HK | NF
       - 🇭🇰 香港 HKT01 | x1 | HZCU-HK | NF
       - 🇭🇰 香港 HKT02 | x1 | AGA | NF
       - 🇭🇰 香港 HKT02 | x1 | HZCU-HK | NF
@@ -277,6 +244,7 @@ proxy-groups:
       - 🇭🇰 香港02 | x1 | JMCM
       - 🇭🇰 香港03 | x1 | HZCU
       - 🇭🇰 香港03 | x1 | AGA
+      - 🇭🇰 香港03 | x1 | JMCM
       - 🇭🇰 香港04 | x1 | HZCU
       - 🇭🇰 香港04 | x1 | AGA
       - 🇭🇰 香港04 | x1 | JMCM
@@ -295,13 +263,13 @@ proxy-groups:
       - 🇺🇸 美国01 | x1 | JMCM
       - 🇺🇸 美国01 | x1 | HZCU
       - 🇺🇸 美国01 | x1 | AGA
-      - 🇭🇰 美国02 | x1 | HK
+      - 🇺🇸 美国02 | x1 |
       - 🇺🇸 美国02 | x1 | AGA
       - 🇺🇸 美国02 | x1 | JMCM
-      - 🇭🇰 美国03 | x1 | HK | NF
+      - 🇺🇸 美国03 | x1 | NF
       - 🇺🇸 美国03 | x1 | AGA | NF
       - 🇺🇸 美国03 | x1 | JMCM | NF
-      - 🇭🇰 美国04 | x1 | HK | NF
+      - 🇺🇸 美国04 | x1 | NF
       - 🇺🇸 美国04 | x1 | AGA | NF
       - 🇺🇸 美国04 | x1 | JMCM | NF
       - 🇷🇺 俄罗斯01 | x1 | JMCM
@@ -309,8 +277,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯01 | x1 | AGA
       - 🇷🇺 俄罗斯02 | x1 | HZCU
       - 🇷🇺 俄罗斯02 | x1 | AGA
-      - 🇷🇺 俄罗斯02 | x1 | JMCM
-      - 🇬🇧 英国01 | x1 | JMCM
       - 🇬🇧 英国01 | x1 | HZCU
       - 🇬🇧 英国01 | x1 | AGA
       - 🇭🇰 日本01 | x1 | HK| NF
@@ -324,23 +290,15 @@ proxy-groups:
       - 🇸🇬 新加坡01 | x1 |  JMCM | NF
       - 🇸🇬 新加坡01 | x1 | HZCU | NF
       - 🇸🇬 新加坡01 | x1 | AGA | NF
-      - 🇸🇬 新加坡02 | x1 | HZCU | NF
       - 🇸🇬 新加坡02 | x1 | AGA | NF
-      - 🇸🇬 新加坡02 | x1 | JMCM | NF
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾01 | x1 | AGA | NF
-      - 🇨🇳 台湾01 | x1 | HZCU | NF
-      - 🇨🇳 台湾01 | x1 | JMCM | NF
-      - 🇨🇳 台湾02 | x1 | AGA | NF
+      - 🇨🇳 台湾02 | x1 | Drict | NF
       - 🇨🇳 台湾02 | x1 | HZCU | NF
-      - 🇨🇳 台湾02 | x1 | JMCM | NF
-      - 🇭🇰 香港 HKT01 | x1 | AGA | NF
-      - 🇭🇰 香港 HKT01 | x1 | JMCM-HK | NF
       - 🇭🇰 香港 HKT01 | x1 | HZCU-HK | NF
       - 🇭🇰 香港 HKT02 | x1 | AGA | NF
       - 🇭🇰 香港 HKT02 | x1 | HZCU-HK | NF
@@ -356,6 +314,7 @@ proxy-groups:
       - 🇭🇰 香港02 | x1 | JMCM
       - 🇭🇰 香港03 | x1 | HZCU
       - 🇭🇰 香港03 | x1 | AGA
+      - 🇭🇰 香港03 | x1 | JMCM
       - 🇭🇰 香港04 | x1 | HZCU
       - 🇭🇰 香港04 | x1 | AGA
       - 🇭🇰 香港04 | x1 | JMCM
@@ -374,13 +333,13 @@ proxy-groups:
       - 🇺🇸 美国01 | x1 | JMCM
       - 🇺🇸 美国01 | x1 | HZCU
       - 🇺🇸 美国01 | x1 | AGA
-      - 🇭🇰 美国02 | x1 | HK
+      - 🇺🇸 美国02 | x1 |
       - 🇺🇸 美国02 | x1 | AGA
       - 🇺🇸 美国02 | x1 | JMCM
-      - 🇭🇰 美国03 | x1 | HK | NF
+      - 🇺🇸 美国03 | x1 | NF
       - 🇺🇸 美国03 | x1 | AGA | NF
       - 🇺🇸 美国03 | x1 | JMCM | NF
-      - 🇭🇰 美国04 | x1 | HK | NF
+      - 🇺🇸 美国04 | x1 | NF
       - 🇺🇸 美国04 | x1 | AGA | NF
       - 🇺🇸 美国04 | x1 | JMCM | NF
       - 🇷🇺 俄罗斯01 | x1 | JMCM
@@ -388,8 +347,6 @@ proxy-groups:
       - 🇷🇺 俄罗斯01 | x1 | AGA
       - 🇷🇺 俄罗斯02 | x1 | HZCU
       - 🇷🇺 俄罗斯02 | x1 | AGA
-      - 🇷🇺 俄罗斯02 | x1 | JMCM
-      - 🇬🇧 英国01 | x1 | JMCM
       - 🇬🇧 英国01 | x1 | HZCU
       - 🇬🇧 英国01 | x1 | AGA
       - 🇭🇰 日本01 | x1 | HK| NF
@@ -403,9 +360,7 @@ proxy-groups:
       - 🇸🇬 新加坡01 | x1 |  JMCM | NF
       - 🇸🇬 新加坡01 | x1 | HZCU | NF
       - 🇸🇬 新加坡01 | x1 | AGA | NF
-      - 🇸🇬 新加坡02 | x1 | HZCU | NF
       - 🇸🇬 新加坡02 | x1 | AGA | NF
-      - 🇸🇬 新加坡02 | x1 | JMCM | NF
   - name: 📲 电报消息
     type: select
     proxies:
@@ -582,8 +537,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港 HKT01 | x1 | AGA | NF
-      - 🇭🇰 香港 HKT01 | x1 | JMCM-HK | NF
       - 🇭🇰 香港 HKT01 | x1 | HZCU-HK | NF
       - 🇭🇰 香港 HKT02 | x1 | AGA | NF
       - 🇭🇰 香港 HKT02 | x1 | HZCU-HK | NF
@@ -599,12 +552,10 @@ proxy-groups:
       - 🇭🇰 香港02 | x1 | JMCM
       - 🇭🇰 香港03 | x1 | HZCU
       - 🇭🇰 香港03 | x1 | AGA
+      - 🇭🇰 香港03 | x1 | JMCM
       - 🇭🇰 香港04 | x1 | HZCU
       - 🇭🇰 香港04 | x1 | AGA
       - 🇭🇰 香港04 | x1 | JMCM
-      - 🇭🇰 美国02 | x1 | HK
-      - 🇭🇰 美国03 | x1 | HK | NF
-      - 🇭🇰 美国04 | x1 | HK | NF
       - 🇭🇰 日本01 | x1 | HK| NF
   - name: 🇯🇵 日本节点
     type: url-test
@@ -629,13 +580,13 @@ proxy-groups:
       - 🇺🇸 美国01 | x1 | JMCM
       - 🇺🇸 美国01 | x1 | HZCU
       - 🇺🇸 美国01 | x1 | AGA
-      - 🇭🇰 美国02 | x1 | HK
+      - 🇺🇸 美国02 | x1 |
       - 🇺🇸 美国02 | x1 | AGA
       - 🇺🇸 美国02 | x1 | JMCM
-      - 🇭🇰 美国03 | x1 | HK | NF
+      - 🇺🇸 美国03 | x1 | NF
       - 🇺🇸 美国03 | x1 | AGA | NF
       - 🇺🇸 美国03 | x1 | JMCM | NF
-      - 🇭🇰 美国04 | x1 | HK | NF
+      - 🇺🇸 美国04 | x1 | NF
       - 🇺🇸 美国04 | x1 | AGA | NF
       - 🇺🇸 美国04 | x1 | JMCM | NF
   - name: 🇨🇳 台湾节点
@@ -644,12 +595,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 台湾01 | x1 | AGA | NF
-      - 🇨🇳 台湾01 | x1 | HZCU | NF
-      - 🇨🇳 台湾01 | x1 | JMCM | NF
-      - 🇨🇳 台湾02 | x1 | AGA | NF
+      - 🇨🇳 台湾02 | x1 | Drict | NF
       - 🇨🇳 台湾02 | x1 | HZCU | NF
-      - 🇨🇳 台湾02 | x1 | JMCM | NF
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -659,9 +606,7 @@ proxy-groups:
       - 🇸🇬 新加坡01 | x1 |  JMCM | NF
       - 🇸🇬 新加坡01 | x1 | HZCU | NF
       - 🇸🇬 新加坡01 | x1 | AGA | NF
-      - 🇸🇬 新加坡02 | x1 | HZCU | NF
       - 🇸🇬 新加坡02 | x1 | AGA | NF
-      - 🇸🇬 新加坡02 | x1 | JMCM | NF
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -677,14 +622,8 @@ proxy-groups:
   - name: 🎥 奈飞节点
     type: select
     proxies:
-      - 🇨🇳 台湾01 | x1 | AGA | NF
-      - 🇨🇳 台湾01 | x1 | HZCU | NF
-      - 🇨🇳 台湾01 | x1 | JMCM | NF
-      - 🇨🇳 台湾02 | x1 | AGA | NF
+      - 🇨🇳 台湾02 | x1 | Drict | NF
       - 🇨🇳 台湾02 | x1 | HZCU | NF
-      - 🇨🇳 台湾02 | x1 | JMCM | NF
-      - 🇭🇰 香港 HKT01 | x1 | AGA | NF
-      - 🇭🇰 香港 HKT01 | x1 | JMCM-HK | NF
       - 🇭🇰 香港 HKT01 | x1 | HZCU-HK | NF
       - 🇭🇰 香港 HKT02 | x1 | AGA | NF
       - 🇭🇰 香港 HKT02 | x1 | HZCU-HK | NF
@@ -697,10 +636,10 @@ proxy-groups:
       - 🇰🇷 韩国02 | x1 | JMCM | NF
       - 🇰🇷 韩国02 | x1 | HZCU | NF
       - 🇰🇷 韩国02 | x1 | AGA | NF
-      - 🇭🇰 美国03 | x1 | HK | NF
+      - 🇺🇸 美国03 | x1 | NF
       - 🇺🇸 美国03 | x1 | AGA | NF
       - 🇺🇸 美国03 | x1 | JMCM | NF
-      - 🇭🇰 美国04 | x1 | HK | NF
+      - 🇺🇸 美国04 | x1 | NF
       - 🇺🇸 美国04 | x1 | AGA | NF
       - 🇺🇸 美国04 | x1 | JMCM | NF
       - 🇭🇰 日本01 | x1 | HK| NF
@@ -714,9 +653,7 @@ proxy-groups:
       - 🇸🇬 新加坡01 | x1 |  JMCM | NF
       - 🇸🇬 新加坡01 | x1 | HZCU | NF
       - 🇸🇬 新加坡01 | x1 | AGA | NF
-      - 🇸🇬 新加坡02 | x1 | HZCU | NF
       - 🇸🇬 新加坡02 | x1 | AGA | NF
-      - 🇸🇬 新加坡02 | x1 | JMCM | NF
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
