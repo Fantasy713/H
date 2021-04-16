@@ -11,12 +11,10 @@ proxies:
   - {name: 🇨🇳 台湾02 | x1 | 华东 | NF, server: hz.hxlm.cc, port: 9122, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
   - {name: 🇨🇳 台湾02 | x1 | 华南 | NF, server: huanan.hxlm.cc, port: 23001, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
   - {name: 🇨🇳 台湾02 | x1 | 华中 | NF, server: cscu.hxlm.cc, port: 9122, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
-  - {name: 🇭🇰 香港 HKBN 01 | x1 | 华南 | NF, server: huanan.hxlm.cc, port: 23002, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇭🇰 香港 HKBN 01 | x1 | 华东 | NF, server: hz.hxlm.cc, port: 9111, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇭🇰 香港 HKBN 01 | x1 | 华中 | NF, server: cscu.hxlm.cc, port: 9111, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
+  - {name: 🇭🇰 香港 HKT 01 | x1 | 华南 | NF, server: huanan.hxlm.cc, port: 23002, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
+  - {name: 🇭🇰 香港 HKT 01 | x1 | 华东 | NF, server: hz.hxlm.cc, port: 9111, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
+  - {name: 🇭🇰 香港 HKT 01 | x1 | 华中 | NF, server: cscu.hxlm.cc, port: 9111, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇭🇰 香港 HKT02 | x1 | 华南 | NF, server: huanan.hxlm.cc, port: 23025, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
-  - {name: 🇭🇰 香港 HKT02 | x1 | 华中 | NF, server: cscu.hxlm.cc, port: 10011, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
-  - {name: 🇭🇰 香港 HKT02 | x1 | 华东 | NF, server: hz.hxlm.cc, port: 10011, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
   - {name: 🇭🇰 香港 HKBN 03 | x1 | 华南 | NF, server: huanan.hxlm.cc, port: 23026, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
   - {name: 🇭🇰 香港 HKBN 03 | x1 | 华中 | NF, server: cscu.hxlm.cc, port: 10002, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
   - {name: 🇭🇰 香港 HKBN 03 | x1 |  华东 | NF, server: hz.hxlm.cc, port: 10002, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-au01.jerrui.com}}
@@ -36,12 +34,6 @@ proxies:
   - {name: 🇰🇷 韩国01 | x1 | 华南, server: huanan.hxlm.cc, port: 23010, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇰🇷 韩国01 | x1 | 华中, server: cscu.hxlm.cc, port: 9102, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇰🇷 韩国01 | x1 | 华东, server: hz.hxlm.cc, port: 9102, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇰🇷 韩国02 | x1 | 华南, server: huanan.hxlm.cc, port: 23011, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇰🇷 韩国02 | x1 | 华中, server: cscu.hxlm.cc, port: 9115, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇰🇷 韩国02 | x1 | 华东, server: hz.hxlm.cc, port: 9115, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇺🇸 美国01 | x1 | 华南, server: huanan.hxlm.cc, port: 23012, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇺🇸 美国01 | x1 | 华中, server: cscu.hxlm.cc, port: 9101, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇺🇸 美国01 | x1 | 华东, server: hz.hxlm.cc, port: 9101, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇺🇸 美国02 | x1 | 华南, server: huanan.hxlm.cc, port: 23013, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇺🇸 美国02 | x1 | 华中, server: cscu.hxlm.cc, port: 9100, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇺🇸 美国02 | x1 | 华东, server: hz.hxlm.cc, port: 9100, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
@@ -53,13 +45,6 @@ proxies:
   - {name: 🇺🇸 美国04 | x1 | 华东, server: hz.hxlm.cc, port: 9117, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇺🇸 美国05 | x1 | 华南 | NF, server: huanan.hxlm.cc, port: 23040, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
   - {name: 🇺🇸 美国05 | x1 | 华中 | NF, server: cscu.hxlm.cc, port: 23040, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇺🇸 美国05 | x1 | 华东 | NF, server: hz.hxlm.cc, port: 23040, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.cctv.com}}
-  - {name: 🇷🇺 俄罗斯01 | x1 | 华南, server: huanan.hxlm.cc, port: 23016, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
-  - {name: 🇷🇺 俄罗斯02 | x1 | 华东, server: hz.hxlm.cc, port: 9119, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
-  - {name: 🇷🇺 俄罗斯02 | x1 | 华南, server: huanan.hxlm.cc, port: 23017, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
-  - {name: 🇬🇧 英国01 | x1 | 华南, server: huanan.hxlm.cc, port: 23016, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇬🇧 英国01 | x1 | 华东, server: hz.hxlm.cc, port: 9132, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇬🇧 英国01 | x1 | 华中, server: cscu.hxlm.cc, port: 9132, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: www.baidu.com}}
   - {name: 🇯🇵 日本01 | x1 | 华南, server: huanan.hxlm.cc, port: 23019, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-jp01.jerrui.com}}
   - {name: 🇯🇵 日本01 | x1 | 华中, server: cscu.hxlm.cc, port: 9104, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-jp01.jerrui.com}}
   - {name: 🇯🇵 日本01 | x1 | 华东, server: hz.hxlm.cc, port: 9104, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-jp01.jerrui.com}}
@@ -69,9 +54,6 @@ proxies:
   - {name: 🇯🇵 日本03 | x1 | 华南 | NF, server: huanan.hxlm.cc, port: 23021, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-jp01.jerrui.com}}
   - {name: 🇯🇵 日本03 | x1 | 华中 | NF, server: cscu.hxlm.cc, port: 9113, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-jp01.jerrui.com}}
   - {name: 🇯🇵 日本03 | x1 | 华东 | NF, server: hz.hxlm.cc, port: 9113, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-jp01.jerrui.com}}
-  - {name: 🇸🇬 新加坡01 | x1 | 华南, server: huanan.hxlm.cc, port: 23022, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
-  - {name: 🇸🇬 新加坡01 | x1 | 华中, server: cscu.hxlm.cc, port: 9112, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
-  - {name: 🇸🇬 新加坡01 | x1 | 华东, server: hz.hxlm.cc, port: 9112, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
   - {name: 🇸🇬 新加坡02 | x1 | 华中, server: cscu.hxlm.cc, port: 8201, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
   - {name: 🇸🇬 新加坡02 | x1 | 华南, server: huanan.hxlm.cc, port: 23023, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
   - {name: 🇸🇬 新加坡02 | x1 | 华东, server: hz.hxlm.cc, port: 9201, type: vmess, uuid: 63e0676f-dfcc-4910-a5a2-2b8a7b0bb52c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: bm-ru01.jerrui.com}}
@@ -97,12 +79,10 @@ proxy-groups:
       - 🇨🇳 台湾02 | x1 | 华东 | NF
       - 🇨🇳 台湾02 | x1 | 华南 | NF
       - 🇨🇳 台湾02 | x1 | 华中 | NF
-      - 🇭🇰 香港 HKBN 01 | x1 | 华南 | NF
-      - 🇭🇰 香港 HKBN 01 | x1 | 华东 | NF
-      - 🇭🇰 香港 HKBN 01 | x1 | 华中 | NF
+      - 🇭🇰 香港 HKT 01 | x1 | 华南 | NF
+      - 🇭🇰 香港 HKT 01 | x1 | 华东 | NF
+      - 🇭🇰 香港 HKT 01 | x1 | 华中 | NF
       - 🇭🇰 香港 HKT02 | x1 | 华南 | NF
-      - 🇭🇰 香港 HKT02 | x1 | 华中 | NF
-      - 🇭🇰 香港 HKT02 | x1 | 华东 | NF
       - 🇭🇰 香港 HKBN 03 | x1 | 华南 | NF
       - 🇭🇰 香港 HKBN 03 | x1 | 华中 | NF
       - 🇭🇰 香港 HKBN 03 | x1 |  华东 | NF
@@ -122,12 +102,6 @@ proxy-groups:
       - 🇰🇷 韩国01 | x1 | 华南
       - 🇰🇷 韩国01 | x1 | 华中
       - 🇰🇷 韩国01 | x1 | 华东
-      - 🇰🇷 韩国02 | x1 | 华南
-      - 🇰🇷 韩国02 | x1 | 华中
-      - 🇰🇷 韩国02 | x1 | 华东
-      - 🇺🇸 美国01 | x1 | 华南
-      - 🇺🇸 美国01 | x1 | 华中
-      - 🇺🇸 美国01 | x1 | 华东
       - 🇺🇸 美国02 | x1 | 华南
       - 🇺🇸 美国02 | x1 | 华中
       - 🇺🇸 美国02 | x1 | 华东
@@ -139,13 +113,6 @@ proxy-groups:
       - 🇺🇸 美国04 | x1 | 华东
       - 🇺🇸 美国05 | x1 | 华南 | NF
       - 🇺🇸 美国05 | x1 | 华中 | NF
-      - 🇺🇸 美国05 | x1 | 华东 | NF
-      - 🇷🇺 俄罗斯01 | x1 | 华南
-      - 🇷🇺 俄罗斯02 | x1 | 华东
-      - 🇷🇺 俄罗斯02 | x1 | 华南
-      - 🇬🇧 英国01 | x1 | 华南
-      - 🇬🇧 英国01 | x1 | 华东
-      - 🇬🇧 英国01 | x1 | 华中
       - 🇯🇵 日本01 | x1 | 华南
       - 🇯🇵 日本01 | x1 | 华中
       - 🇯🇵 日本01 | x1 | 华东
@@ -155,9 +122,6 @@ proxy-groups:
       - 🇯🇵 日本03 | x1 | 华南 | NF
       - 🇯🇵 日本03 | x1 | 华中 | NF
       - 🇯🇵 日本03 | x1 | 华东 | NF
-      - 🇸🇬 新加坡01 | x1 | 华南
-      - 🇸🇬 新加坡01 | x1 | 华中
-      - 🇸🇬 新加坡01 | x1 | 华东
       - 🇸🇬 新加坡02 | x1 | 华中
       - 🇸🇬 新加坡02 | x1 | 华南
       - 🇸🇬 新加坡02 | x1 | 华东
@@ -173,12 +137,10 @@ proxy-groups:
       - 🇨🇳 台湾02 | x1 | 华东 | NF
       - 🇨🇳 台湾02 | x1 | 华南 | NF
       - 🇨🇳 台湾02 | x1 | 华中 | NF
-      - 🇭🇰 香港 HKBN 01 | x1 | 华南 | NF
-      - 🇭🇰 香港 HKBN 01 | x1 | 华东 | NF
-      - 🇭🇰 香港 HKBN 01 | x1 | 华中 | NF
+      - 🇭🇰 香港 HKT 01 | x1 | 华南 | NF
+      - 🇭🇰 香港 HKT 01 | x1 | 华东 | NF
+      - 🇭🇰 香港 HKT 01 | x1 | 华中 | NF
       - 🇭🇰 香港 HKT02 | x1 | 华南 | NF
-      - 🇭🇰 香港 HKT02 | x1 | 华中 | NF
-      - 🇭🇰 香港 HKT02 | x1 | 华东 | NF
       - 🇭🇰 香港 HKBN 03 | x1 | 华南 | NF
       - 🇭🇰 香港 HKBN 03 | x1 | 华中 | NF
       - 🇭🇰 香港 HKBN 03 | x1 |  华东 | NF
@@ -198,12 +160,6 @@ proxy-groups:
       - 🇰🇷 韩国01 | x1 | 华南
       - 🇰🇷 韩国01 | x1 | 华中
       - 🇰🇷 韩国01 | x1 | 华东
-      - 🇰🇷 韩国02 | x1 | 华南
-      - 🇰🇷 韩国02 | x1 | 华中
-      - 🇰🇷 韩国02 | x1 | 华东
-      - 🇺🇸 美国01 | x1 | 华南
-      - 🇺🇸 美国01 | x1 | 华中
-      - 🇺🇸 美国01 | x1 | 华东
       - 🇺🇸 美国02 | x1 | 华南
       - 🇺🇸 美国02 | x1 | 华中
       - 🇺🇸 美国02 | x1 | 华东
@@ -215,13 +171,6 @@ proxy-groups:
       - 🇺🇸 美国04 | x1 | 华东
       - 🇺🇸 美国05 | x1 | 华南 | NF
       - 🇺🇸 美国05 | x1 | 华中 | NF
-      - 🇺🇸 美国05 | x1 | 华东 | NF
-      - 🇷🇺 俄罗斯01 | x1 | 华南
-      - 🇷🇺 俄罗斯02 | x1 | 华东
-      - 🇷🇺 俄罗斯02 | x1 | 华南
-      - 🇬🇧 英国01 | x1 | 华南
-      - 🇬🇧 英国01 | x1 | 华东
-      - 🇬🇧 英国01 | x1 | 华中
       - 🇯🇵 日本01 | x1 | 华南
       - 🇯🇵 日本01 | x1 | 华中
       - 🇯🇵 日本01 | x1 | 华东
@@ -231,9 +180,6 @@ proxy-groups:
       - 🇯🇵 日本03 | x1 | 华南 | NF
       - 🇯🇵 日本03 | x1 | 华中 | NF
       - 🇯🇵 日本03 | x1 | 华东 | NF
-      - 🇸🇬 新加坡01 | x1 | 华南
-      - 🇸🇬 新加坡01 | x1 | 华中
-      - 🇸🇬 新加坡01 | x1 | 华东
       - 🇸🇬 新加坡02 | x1 | 华中
       - 🇸🇬 新加坡02 | x1 | 华南
       - 🇸🇬 新加坡02 | x1 | 华东
@@ -413,12 +359,10 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 香港 HKBN 01 | x1 | 华南 | NF
-      - 🇭🇰 香港 HKBN 01 | x1 | 华东 | NF
-      - 🇭🇰 香港 HKBN 01 | x1 | 华中 | NF
+      - 🇭🇰 香港 HKT 01 | x1 | 华南 | NF
+      - 🇭🇰 香港 HKT 01 | x1 | 华东 | NF
+      - 🇭🇰 香港 HKT 01 | x1 | 华中 | NF
       - 🇭🇰 香港 HKT02 | x1 | 华南 | NF
-      - 🇭🇰 香港 HKT02 | x1 | 华中 | NF
-      - 🇭🇰 香港 HKT02 | x1 | 华东 | NF
       - 🇭🇰 香港 HKBN 03 | x1 | 华南 | NF
       - 🇭🇰 香港 HKBN 03 | x1 | 华中 | NF
       - 🇭🇰 香港 HKBN 03 | x1 |  华东 | NF
@@ -454,9 +398,6 @@ proxy-groups:
     interval: 300
     tolerance: 150
     proxies:
-      - 🇺🇸 美国01 | x1 | 华南
-      - 🇺🇸 美国01 | x1 | 华中
-      - 🇺🇸 美国01 | x1 | 华东
       - 🇺🇸 美国02 | x1 | 华南
       - 🇺🇸 美国02 | x1 | 华中
       - 🇺🇸 美国02 | x1 | 华东
@@ -468,7 +409,6 @@ proxy-groups:
       - 🇺🇸 美国04 | x1 | 华东
       - 🇺🇸 美国05 | x1 | 华南 | NF
       - 🇺🇸 美国05 | x1 | 华中 | NF
-      - 🇺🇸 美国05 | x1 | 华东 | NF
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -487,9 +427,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡01 | x1 | 华南
-      - 🇸🇬 新加坡01 | x1 | 华中
-      - 🇸🇬 新加坡01 | x1 | 华东
       - 🇸🇬 新加坡02 | x1 | 华中
       - 🇸🇬 新加坡02 | x1 | 华南
       - 🇸🇬 新加坡02 | x1 | 华东
@@ -502,9 +439,6 @@ proxy-groups:
       - 🇰🇷 韩国01 | x1 | 华南
       - 🇰🇷 韩国01 | x1 | 华中
       - 🇰🇷 韩国01 | x1 | 华东
-      - 🇰🇷 韩国02 | x1 | 华南
-      - 🇰🇷 韩国02 | x1 | 华中
-      - 🇰🇷 韩国02 | x1 | 华东
   - name: 🎥 奈飞节点
     type: select
     proxies:
@@ -512,18 +446,15 @@ proxy-groups:
       - 🇨🇳 台湾02 | x1 | 华东 | NF
       - 🇨🇳 台湾02 | x1 | 华南 | NF
       - 🇨🇳 台湾02 | x1 | 华中 | NF
-      - 🇭🇰 香港 HKBN 01 | x1 | 华南 | NF
-      - 🇭🇰 香港 HKBN 01 | x1 | 华东 | NF
-      - 🇭🇰 香港 HKBN 01 | x1 | 华中 | NF
+      - 🇭🇰 香港 HKT 01 | x1 | 华南 | NF
+      - 🇭🇰 香港 HKT 01 | x1 | 华东 | NF
+      - 🇭🇰 香港 HKT 01 | x1 | 华中 | NF
       - 🇭🇰 香港 HKT02 | x1 | 华南 | NF
-      - 🇭🇰 香港 HKT02 | x1 | 华中 | NF
-      - 🇭🇰 香港 HKT02 | x1 | 华东 | NF
       - 🇭🇰 香港 HKBN 03 | x1 | 华南 | NF
       - 🇭🇰 香港 HKBN 03 | x1 | 华中 | NF
       - 🇭🇰 香港 HKBN 03 | x1 |  华东 | NF
       - 🇺🇸 美国05 | x1 | 华南 | NF
       - 🇺🇸 美国05 | x1 | 华中 | NF
-      - 🇺🇸 美国05 | x1 | 华东 | NF
       - 🇯🇵 日本03 | x1 | 华南 | NF
       - 🇯🇵 日本03 | x1 | 华中 | NF
       - 🇯🇵 日本03 | x1 | 华东 | NF
